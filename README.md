@@ -1,10 +1,10 @@
 # Orthogons
 
-This project is a simple experiment to come up with some useful grids
-for design that are not boring (like the kinds you get out of the box
-with a Bootstrap or a Foundation).
+This project aims to come up with some useful grids for design that
+are not boring (like the kinds you get out of the box with a Bootstrap
+or a Foundation).
 
-It is motivated by Jen Simmons' excellent [Layout Land
+It is motivated by Jen Simmons’ excellent [Layout Land
 video series][layout-land]. In a [particularly amazing
 episode][fr-units-video], she points to the *[content-out
 layout][content-out-layout]* philosophy (articulated Mark Boulton and
@@ -12,18 +12,19 @@ Nathon Ford, drawing from Linda van Deursen).
 
 My simple summary of the idea is this:
 
-- Don't start with a uniform grid just because; that's context-free to
+- Don’t start with a uniform grid just because; that’s context-free to
   the point of being generic.
 - Take a good look at the content you have, and define relationships
   and structure based on this.
 - Use this structure to build out suitable grids, and further, use
   [special ratios of widths and heights][orthogons] when doing so to
-  really make your design feel organic!
+  make your design feel really organic!
 
-In this repository, you're going to find some experiments with this as
-I work with these ideas on a new layout for [my personal website][my-site].
+In this repository, you’re going to find some experiments with these
+ideas as I attempt to arrive at a more human layout for [my personal
+website][my-site].
 
-## Grid experiments
+## Experiments with non-uniform grids
 
 ### 1. A look at the 12 orthogons of Wersin
 
@@ -32,10 +33,10 @@ This is a really basic first step, where I simply visualise all these
 starts one unit wide, and the rest subsequently grow in multiples of
 the ratio.
 
-The code in the repository has generators (in Python) that can be
-tweaked for more columns (and ratios).
+![12 orthogons of Wersin][exp-1-screenshot]
 
-[[demo]][exp-1-demo] [[code]][exp-1-code]
+[The code][exp-1-code] in the repository has generators (in Python) that can be
+tweaked for more columns (and ratios).
 
 
 ### 2. A simple article template
@@ -44,7 +45,7 @@ TODO: With outsets, asides, different width images, etc.
 
 ## Discussions and contributing
 
-If you'd like to talk about this stuff or contribute to it, I'd love
+If you’d like to talk about this stuff or contribute to it, I’d love
 to hear from you:
 
 - You can talk to me like a human [on twitter][my-twitter]
@@ -84,9 +85,7 @@ THE SOFTWARE.
 [content-out-layout]: https://alistapart.com/article/content-out-layout
 [my-site]: https://harishnarayanan.org/
 [my-twitter]: https://twitter.com/copingbear
-[gh-issue]:
-[gh-pull-request]
-[exp-1-code]: dds
-[exp-1-demo]: dds
-
-
+[gh-issue]: https://github.com/hnarayanan/orthogons/issues
+[gh-pull-request]: https://github.com/hnarayanan/orthogons/pulls
+[exp-1-code]: https://github.com/hnarayanan/orthogons/tree/master/experiment-1
+[exp-1-screenshot]: https://github.com/hnarayanan/orthogons/raw/master/experiment-1/screenshot.png
