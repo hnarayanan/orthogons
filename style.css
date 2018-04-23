@@ -1,0 +1,89 @@
+body {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    margin: 2em;
+}
+
+.fraction {
+    background-color: #ffc2ce;
+    border-radius: 0.25em;
+    padding: 1em;
+    text-align: center;
+    font-weight: 300;
+}
+
+.fraction:after {
+    content: " fr";
+}
+
+.wrapper-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-diagon {
+    display: grid;
+    grid-template-columns: 1fr 1.4142135623730951fr 2.0000000000000004fr 2.8284271247461907fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-hecton {
+    display: grid;
+    grid-template-columns: 1fr 1.7320508075688772fr 2.9999999999999996fr 5.196152422706631fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-doppelquadrat {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 8fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-hemiolion {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2.25fr 3.375fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-auron {
+    display: grid;
+    grid-template-columns: 1fr 1.61803398875fr 2.618033988750235fr 4.236067977500615fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-hemidiagon {
+    display: grid;
+    grid-template-columns: 1fr 1.118033988749895fr 1.2500000000000002fr 1.3975424859373689fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-penton {
+    display: grid;
+    grid-template-columns: 1fr 1.2720196495141103fr 1.61803398875fr 2.0581710272716927fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-trion {
+    display: grid;
+    grid-template-columns: 1fr 1.1547005383792515fr 1.3333333333333333fr 1.5396007178390019fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-quadriagon {
+    display: grid;
+    grid-template-columns: 1fr 1.2071067811865475fr 1.4571067811865475fr 1.7588834764831842fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-biauron {
+    display: grid;
+    grid-template-columns: 1fr 3.2360679775fr 10.47213595500094fr 33.88854382000492fr;
+    grid-column-gap: 1em;
+}
+    
+.wrapper-bipenton {
+    display: grid;
+    grid-template-columns: 1fr 1.4530850560107216fr 2.111456180001682fr 3.0681254215819282fr;
+    grid-column-gap: 1em;
+}
